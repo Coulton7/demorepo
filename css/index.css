@@ -1,3 +1,9 @@
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*base padding for container fluid calss*/
 .row {
   margin: 0 auto;
 }
