@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+.flexslider .slides>li:first-child {
+  display: block;
+  -webkit-backface-visibility: visible;
+}
+
 .fullscreen {
   padding: 0 !important;
   margin: 0 !important;
