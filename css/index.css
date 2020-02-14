@@ -175,7 +175,28 @@
   width: 100%;
   color: #ffffff;
   background-repeat: no-repeat;
-  
+}
+
+.btn-red {
+  list-style-type: none;
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 0;
+}
+
+/*Red button command for html*/
+.btn-red:hover {
+  background: #fa010a;
+  margin-bottom: 0;
+  color: #ffffff;
+  outline-offset: 1px;
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: 1px;
+}
+
 
 @media screen and (max-width: 767px) {
   .banner-title {
