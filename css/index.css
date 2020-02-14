@@ -13,6 +13,11 @@
   -webkit-backface-visibility: visible;
 }
 
+.flexslider{
+  position: relative;
+  z-index: 2;
+}
+
 .fullscreen {
   padding: 0 !important;
   margin: 0 !important;
@@ -198,7 +203,7 @@
 }
 
 .iceberg-sea {
-  margin-top: -9em;
+  margin-top: -5em;
 }
 
 .enviro-nav {
