@@ -189,6 +189,10 @@ nav.topmenu {
   top: 0;
 }
 
+.noscroll{
+  overflow-y: hidden;
+}
+
 .overlay {
   height: 0%;
   background-color: black;
