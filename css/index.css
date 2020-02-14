@@ -197,6 +197,10 @@
   outline-width: 1px;
 }
 
+.iceberg-sea {
+  margin-top: -9em;
+}
+
 
 @media screen and (max-width: 767px) {
   .banner-title {
