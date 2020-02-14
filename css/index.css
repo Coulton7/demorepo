@@ -182,6 +182,13 @@
   background-repeat: no-repeat;
 }
 
+nav.topmenu{
+  width:100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
 .overlay {
   height: 0%;
   background-color: black;
