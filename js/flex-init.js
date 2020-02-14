@@ -1,6 +1,6 @@
 (function($){
   $(document).ready(function() {
-    $('.flexlsider').flexlsider({
+    $('.flexslider').flexslider({
       controlNav: false,
       directionNav: false,
       animation: "fade"
