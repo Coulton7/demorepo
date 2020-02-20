@@ -18,7 +18,7 @@ TxtRotate.prototype.tick = function() {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  this.el.innerHTML = '<div class="flex-header typewriter">'+this.txt+'</div>';
+  this.el.innerHTML = '<div class="typewriter">'+this.txt+'</div>';
 
   var that = this;
   var delta = 300 - Math.random() * 100;
