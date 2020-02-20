@@ -362,6 +362,20 @@ nav.topmenu {
   z-index: 5;
 }
 
+.green-background{
+  background-color: #8da29f;
+  color: #ffffff;
+}
+
+.ligh-grey-gradient{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e7eeed+0,ededed+40,ededed+100 */
+  background: rgb(231,238,237);
+  background: -moz-linear-gradient(-45deg,  rgba(231,238,237,1) 0%, rgba(237,237,237,1) 40%, rgba(237,237,237,1) 100%);
+  background: -webkit-linear-gradient(-45deg,  rgba(231,238,237,1) 0%,rgba(237,237,237,1) 40%,rgba(237,237,237,1) 100%);
+  background: linear-gradient(135deg,  rgba(231,238,237,1) 0%,rgba(237,237,237,1) 40%,rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7eeed', endColorstr='#ededed',GradientType=1 );
+}
+
 /* Animation */
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
