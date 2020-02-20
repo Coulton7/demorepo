@@ -4,7 +4,6 @@
       controlNav: false,
       directionNav: false,
       animation: "fade",
-      smoothHeight: "false",
       slideshowSpeed: 12000
     });
   });
