@@ -5,7 +5,7 @@
       directionNav: false,
       animation: "fade",
       smoothHeight: "false",
-      slideshowSpeed: 15000
+      slideshowSpeed: 12000
     });
   });
 })(jQuery);
