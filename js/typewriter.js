@@ -29,7 +29,7 @@ TxtRotate.prototype.tick = function() {
     delta = this.period;
     this.isDeleting = true;
   } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = true;
+    this.isDeleting = false;
     delta = 500;
   }
 
