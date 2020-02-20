@@ -13,10 +13,6 @@
   -webkit-backface-visibility: visible;
 }
 
-.flex-container  li:not(.flex-active-slide) img{
-  height: 0 !important;
-}
-
 .caption-container{
   height: 100%;
   width: 56%;
