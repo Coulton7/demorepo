@@ -3,7 +3,8 @@
     $('.flexslider').flexslider({
       controlNav: false,
       directionNav: false,
-      animation: "fade"
+      animation: "fade",
+      smoothHeight: "false"
     });
   });
 })(jQuery);
