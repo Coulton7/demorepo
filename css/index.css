@@ -362,9 +362,17 @@ nav.topmenu {
   z-index: 5;
 }
 
+.green-header{
+  color:#99c97f;
+}
+
 .green-background{
   background-color: #8da29f;
   color: #ffffff;
+}
+
+.black-background{
+  background-color: #565756;
 }
 
 .ligh-grey-gradient{
