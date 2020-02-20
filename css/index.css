@@ -13,6 +13,11 @@
   -webkit-backface-visibility: visible;
 }
 
+.flex-container  li:not(.flex-active-slide) img{ 
+
+height: 0 !important;
+}
+
 .flexslider {
   position: relative;
   z-index: 0;
