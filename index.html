@@ -16,7 +16,6 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
   <script type="text/javascript" src="js/flex-init.js"></script>
-  <script type="text/javascript" src="js/typewriter.js"></script>
   <script type="text/javascript" src="js/nav-btn.js"></script>
   <script type="text/javascript" src="js/sticky-scroll.js"></script>
 </head>
@@ -38,21 +37,48 @@
             <div class="flex-container">
               <div class="flexslider">
                 <ul class="slides">
-                  <li><img class="img-responsive" src="images/climate-change-background.jpg"></li>
-                  <li><img class="img-responsive" src="images/clipboard.jpg"></li>
-                  <li><img class="img-responsive" src="images/pressure-gauge.jpg"></li>
-                  <li><img class="img-responsive" src="images/road-sign.jpg"></li>
-                  <li><img class="img-responsive" src="images/hourglass.jpg"></li>
+                  <li><img class="img-responsive" src="images/climate-change-background.jpg">
+                    <div class="caption-container flex-item-caption">
+                      <div class="flex-header anim-typewriter">
+                        test-caption
+                      </div>
+                    </div>
+                  </li>
+                  <li><img class="img-responsive" src="images/clipboard.jpg">
+                    <div class="caption-container flex-item-caption">
+                      <div class="flex-header anim-typewriter">
+                        test-caption with more text
+                      </div>
+                    </div>
+                  </li>
+                  <li><img class="img-responsive" src="images/pressure-gauge.jpg">
+                    <div class="caption-container flex-item-caption">
+                      <div class="flex-header anim-typewriter">
+                        test-caption with even longer text
+                      </div>
+                    </div>
+                  </li>
+                  <li><img class="img-responsive" src="images/road-sign.jpg">
+                    <div class="caption-container flex-item-caption">
+                      <div class="flex-header anim-typewriter">
+                        test-caption with max text length and a bit more
+                      </div>
+                    </div>
+                  </li>
+                  <li><img class="img-responsive" src="images/hourglass.jpg">
+                    <div class="caption-container flex-item-caption">
+                      <div class="flex-header anim-typewriter">
+                        test-caption smaller than previous
+                      </div>
+                    </div>
+                  </li>
                 </ul>
-                <div class="caption-container flex-item-caption">
-                  <div class="flex-header typewrite" data-period="7500" data-type='["test-caption", "test-caption with more text", "test-caption with even longer text", "test-caption with max text length and a bit more", "test-caption smaller than previous"]'>
-                    <div class="flex-header typerwriter"></div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      </div>
       </div>
 
       <nav class="topmenu">

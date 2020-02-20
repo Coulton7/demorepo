@@ -51,3 +51,7 @@ window.onload = function() {
     }
   }
 };
+
+//<div class="caption-container flex-item-caption">
+  //<div class="flex-header typewrite" data-period="7500" data-type='["test-caption", "test-caption with more text", "test-caption with even longer text", "test-caption with max text length and a bit more", "test-caption smaller than previous"]'>
+  //  <div class="flex-header typerwriter"></div>-->
