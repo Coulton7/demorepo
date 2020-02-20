@@ -40,7 +40,7 @@ TxtRotate.prototype.tick = function() {
 
 window.onload = function() {
   var elements = document.getElementsByClassName('typewrite');
-  for (var i=0; i<elements.length; i++) {
+  for (var i=0; i<elements.length;) {
     var toRotate = elements[i].getAttribute('data-type');
     var period = elements[i].getAttribute('data-period');
     if (toRotate) {
