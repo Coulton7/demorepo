@@ -5,8 +5,8 @@
       directionNav: false,
       animation: "fade",
       before: function() {},
-      after: function() {
-        if (document.getElementsByClassName('flex-active-slide')) {
+      after: function(slider) {
+        if($(slider).find(".flex-active-slide")) {
           var elements = document.getElementsByClassName('typewrite');
           for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
@@ -15,6 +15,9 @@
               new TxtRotate(elements[i], JSON.parse(toRotate), period);
             }
           }
+        }
+        else{
+          $(slider).find(".flex-header").removeClass("typewrite");
         }
       }
     });
