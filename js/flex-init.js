@@ -4,7 +4,8 @@
       controlNav: false,
       directionNav: false,
       animation: "fade",
-      smoothHeight: "false"
+      smoothHeight: "false",
+      animationSpeed: 1000
     });
   });
 })(jQuery);
