@@ -521,6 +521,11 @@ max-width: 25%;
   margin: 0;
 }
 
+.mondi-cover{
+  position: relative;
+  top: 6em;
+}
+
 .stripes-section{
   background-image: url(bg-img/GLOBE---1850-2018-MO.png);
   background-size: cover;
