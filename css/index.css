@@ -348,6 +348,14 @@ body {
   top: -5em;
 }
 
+.ind-icon{
+  transition: all .2s ease-in-out;
+}
+
+.ind-icon:hover{
+  transform: scale(1.1);
+}
+
 .iceberg-sea {
   margin-top: -5em;
   position: relative;
