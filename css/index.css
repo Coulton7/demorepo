@@ -435,6 +435,9 @@ max-width: 25%;
 .green-vector-background{
   background-image: url(bg-img/stock-vector-ecology-wave-background-9434254.jpg);
   width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .white-background{
