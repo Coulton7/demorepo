@@ -160,7 +160,6 @@ body {
 
 .widget-width {
   margin: .5rem;
-  width: 270px;
   padding: 10px;
 }
 
@@ -615,7 +614,6 @@ max-width: 25%;
     line-height: 1.7em;
   }
   .widget-width {
-  width: 22em;
   height: 95%;
   }
 }
@@ -687,7 +685,6 @@ max-width: 25%;
     line-height: 1.68em;
   }
   .widget-width {
-  width: 18em;
   height: 95%;
   }
 }
