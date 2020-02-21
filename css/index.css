@@ -394,6 +394,15 @@ max-width: 25%;
   max-width: 75%;
 }
 
+.float-left {
+  float: left;
+}
+
+/*Float for the solutions - industries section*/
+.float-right {
+  float: right;
+}
+
 .green-text{
   color:#99c97f;
 }
@@ -415,6 +424,11 @@ max-width: 25%;
 
 .green-background a:hover{
   color: #fa101a;
+}
+
+.green-vector-background{
+  background-image: url(images/stock-vector-ecology-wave-background-9434254.jpg);
+  width: 100%;
 }
 
 .white-background{
