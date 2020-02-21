@@ -408,6 +408,27 @@ max-width: 25%;
   float: right;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.display-none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+
 .green-text{
   color:#99c97f;
 }
