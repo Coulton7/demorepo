@@ -459,6 +459,11 @@ max-width: 25%;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7eeed', endColorstr='#ededed',GradientType=1 );
 }
 
+.stripes-section{
+  height: 2em;
+  width: 100%;
+}
+
 .typewriter{
   white-space: nowrap;
   overflow: hidden;
