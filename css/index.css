@@ -37,6 +37,12 @@ body {
   margin-bottom: 0;
 }
 
+.flexlsider{
+  margin:0;
+  border: none;
+  z-index: 0;
+}
+
 .flexslider .slides>li:first-child {
   display: block;
   -webkit-backface-visibility: visible;
@@ -459,7 +465,7 @@ max-width: 25%;
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
-    background-color: #ededed;
+  background-color: #ededed;
 }
 
 .desk-background{
