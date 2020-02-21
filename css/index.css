@@ -8,6 +8,23 @@
   margin: 0 auto;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row-deep {
+  padding-bottom: 3em;
+  padding-top: 2.5em;
+}
+
+.row-deeper{
+  padding-bottom: 6em;
+  padding-top: 5em;
+}
+
 .navbar {
   margin-bottom: 0;
 }
