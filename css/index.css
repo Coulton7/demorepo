@@ -84,11 +84,6 @@ body {
   display: flex;
 }
 
-.row-deep {
-  padding-bottom: 3em;
-  padding-top: 2.5em;
-}
-
 .slides {
   overflow: hidden;
 }
