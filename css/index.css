@@ -439,6 +439,14 @@ max-width: 25%;
   background-size: cover;
 }
 
+.desk-background{
+  background-image: url(bg-img/stock-photo-office-desk-with-smart-phone-keyboard-nootebook-water-colour-and-cup-of-coffee-top-view-with-copy-1033160470.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .white-background{
   background-color: #ffffff;
   color:#535354;
