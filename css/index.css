@@ -387,8 +387,11 @@ nav.topmenu {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  overflow: hidden;
+  margin: 0 auto;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s
 }
 @keyframes typewriter{
   from{width: 0;}
