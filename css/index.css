@@ -461,6 +461,7 @@ max-width: 25%;
 
 .stripes-section{
   background-image: url(bg-img/GLOBE---1850-2018-MO.png);
+  background-size: cover;
   width: 100%;
   color: #ffffff;
 }
