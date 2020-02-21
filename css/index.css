@@ -474,6 +474,18 @@ max-width: 25%;
   padding: 2em;
 }
 
+.second-paper{
+  background-color: #e5e5e7;
+  transform: skew(-8deg);
+}
+
+.paper-background{
+  background-color: #ffffff;
+  color:#535354;
+  padding: 2em;
+  transform: skew(7deg);
+}
+
 .black-background{
   background-color: #565756;
   color: #ffffff;
