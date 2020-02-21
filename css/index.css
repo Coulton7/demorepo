@@ -396,6 +396,11 @@ nav.topmenu {
   color: #fa101a;
 }
 
+.white-background{
+  background-color: #ffffff;
+  color:#535354;
+}
+
 .black-background{
   background-color: #565756;
   color: #b2b2b2;
