@@ -502,12 +502,23 @@ max-width: 25%;
 
 .lightbulb{
   z-index: 2;
+  left: -3em;
+  position: relative;
 }
 
 .road-sign{
-  right: 8em;
+  right: 11.2em;
   position: relative;
   z-index: 1;
+}
+
+.img-crop .road-sign {
+    margin-bottom: -10%;
+}
+
+.img-crop{
+  overflow: hidden;
+  margin: 0;
 }
 
 .stripes-section{
