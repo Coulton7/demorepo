@@ -371,9 +371,17 @@ nav.topmenu {
   color: #ffffff;
 }
 
+.green-background a{
+  color:#ffffff;
+}
+
+.green-background a:hover{
+  color: #fa101a;
+}
+
 .black-background{
   background-color: #565756;
-  color: #ffffff;
+  color: #b2b2b2;
 }
 
 .light-grey-gradient{
