@@ -467,6 +467,16 @@ max-width: 25%;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7eeed', endColorstr='#ededed',GradientType=1 );
 }
 
+.lightbulb{
+  z-index: 2;
+}
+
+.road-sign{
+  right: 8em;
+  position: relative;
+  z-index: 1;
+}
+
 .stripes-section{
   background-image: url(bg-img/GLOBE---1850-2018-MO.png);
   background-size: cover;
