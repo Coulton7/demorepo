@@ -391,6 +391,12 @@ nav.topmenu {
   color:#99c97f;
 }
 
+.green-button{
+  background-color: #0a940f;
+  color: #ffffff;
+  border-color: #0a940f 1px solid;
+}
+
 .green-background{
   background-color: #0a940f;
   color: #ffffff;
