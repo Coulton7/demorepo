@@ -275,10 +275,10 @@ body {
   background-repeat: no-repeat;
 }
 
-nav.topmenu {
+.topmenu {
   width: 100%;
   position: fixed;
-  z-index: 1000;
+  z-index: 1031;
   top: 0;
 }
 
