@@ -458,6 +458,8 @@ max-width: 25%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-blend-mode: multiply;
+    background-color: #ededed;
 }
 
 .desk-background{
