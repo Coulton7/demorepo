@@ -362,6 +362,12 @@ body {
   z-index: 5
 }
 
+.iceberg-leaf {
+  margin-top: -8em;
+  padding-top: 1em;
+  position: relative;
+}
+
 .iceberg-gradient {
   margin-top: -5em;
   padding-top: 1em;
