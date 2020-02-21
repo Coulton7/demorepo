@@ -382,6 +382,17 @@ body {
   z-index: 1030;
 }
 
+.img-25{
+max-width: 25%;
+}
+
+.img-50{
+  max-width: 50%;
+}
+
+.img-75{
+  max-width: 75%;
+}
 
 .green-text{
   color:#99c97f;
