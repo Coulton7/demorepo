@@ -460,8 +460,9 @@ max-width: 25%;
 }
 
 .stripes-section{
-  height: 2em;
+  background-image: url(bg-img/GLOBE---1850-2018-MO.png);
   width: 100%;
+  color: #ffffff;
 }
 
 .typewriter{
