@@ -2,7 +2,7 @@
 
   $(document).ready(function() {
     "use strict";
-    var nav = $('.navbar'),
+    var nav = $('.enviro-nav'),
       body = $('body'),
       windowScreen = $(window),
       navOffset = nav.offset().top,
@@ -10,6 +10,7 @@
 
     if (windowScreen.scrollTop() >= navOffset && !nav.hasClass('sticky')) {
       nav.addClass('sticky');
+      nav.removeClass('iceberg-sea');
       $(body).css({
         paddingTop: nav.css('height')
       });
@@ -18,6 +19,7 @@
 
       if (windowScreen.scrollTop() >= navOffset && !nav.hasClass('sticky')) {
         nav.addClass('sticky');
+        nav.removeClass('iceberg-sea');
         $(body).css({
           paddingTop: nav.css('height')
         });
@@ -25,6 +27,7 @@
 
       if (windowScreen.scrollTop() < navOffset && nav.hasClass('sticky')) {
         nav.removeClass('sticky');
+        nav.addClass('iceberg-sea');
         $(body).css({
           paddingTop: 0
         });
