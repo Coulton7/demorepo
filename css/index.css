@@ -11,10 +11,6 @@ body {
   font-weight: 300;
 }
 
-a:hover{
-  color: #e5e5e7;
-}
-
 /*base padding for container fluid calss*/
 .row {
   margin: 0 auto;
@@ -452,6 +448,15 @@ max-width: 25%;
 .green-background{
   background-color: #0a940f;
   color: #ffffff;
+}
+
+.green-background a{
+  color: #ffffff;
+}
+
+.green-background a:hover{
+  color: #e5e5e7;
+  border-bottom: 1px dotted #e5e5e7;
 }
 
 .green-vector-background{
