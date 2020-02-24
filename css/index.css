@@ -454,14 +454,6 @@ max-width: 25%;
   color: #ffffff;
 }
 
-.green-background a{
-  color:#ffffff;
-}
-
-.green-background a:hover{
-  color: #fa101a;
-}
-
 .green-vector-background{
   background-image: url(bg-img/stock-vector-ecology-wave-background-9434254.jpg);
   width: 100%;
