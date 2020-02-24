@@ -11,6 +11,10 @@ body {
   font-weight: 300;
 }
 
+a:hover{
+  color: #e5e5e7;
+}
+
 /*base padding for container fluid calss*/
 .row {
   margin: 0 auto;
